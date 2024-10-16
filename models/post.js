@@ -1,16 +1,17 @@
-import fs from 'fs';
-import { Comment } from 'comment.js';
+const Comment = require('./comment')
 
-export class Posts {
+class Post {
     #id;
+    #area;
     #tittle;
     #author;
     #content;
     #date;
     #comments;
 
-    constructor(id, tittle, author, content, comments = []){
+    constructor(id, area, tittle, author, content, comments = []){
         this.#id = id;
+        this.#area = area
         this.#tittle = tittle;
         this.#author = author;
         this.#content = content;
@@ -21,6 +22,10 @@ export class Posts {
     // Getters
     get id() {
         return this.#id;
+    }
+
+    get area(){
+        return this.#area;
     }
 
     get tittle() {
@@ -44,6 +49,10 @@ export class Posts {
     }
 
     // Setters
+    set area(value){
+        this.#area = value;
+    }
+
     set tittle(value) {
         this.#tittle = value;
     }
@@ -77,3 +86,5 @@ export class Posts {
         fs.writeFileSync('data/posts.json', JSON.stringify(posts, null, 2));
     }
 }
+
+module.exports = Post;

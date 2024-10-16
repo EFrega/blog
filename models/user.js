@@ -1,6 +1,6 @@
-import fs from 'fs';
+// import fs from 'fs';
 
-export class User{
+class User{
     #id;
     #nombre;
     #apellido;
@@ -78,3 +78,5 @@ export class User{
         fs.writeFileSync('data/usuarios.json', JSON.stringify(users, null, 2));
     }
 }
+
+module.exports = User;

@@ -1,6 +1,6 @@
-import fs from 'fs';
+// import fs from 'fs';
 
-export class Comment{
+class Comment{
     #author;
     #content;
     #date;
@@ -38,3 +38,5 @@ export class Comment{
     }
 
 }
+
+module.exports = Comment;

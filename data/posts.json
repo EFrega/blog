@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "tittle": "Introducción a Node.js",
+        "author": "Juan Pérez",
+        "content": "Node.js es un entorno de ejecución para JavaScript que permite ejecutar código fuera del navegador.",
+        "date": "2024-01-01T10:00:00Z",
+        "comments": [
+            {
+                "author": "María Gómez",
+                "content": "¡Muy interesante! Estoy aprendiendo Node.js.",
+                "date": "2024-01-02T12:00:00Z"
+            },
+            {
+                "author": "Carlos Sánchez",
+                "content": "Gracias por la información.",
+                "date": "2024-01-03T14:30:00Z"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tittle": "Entendiendo Express",
+        "author": "Ana López",
+        "content": "Express es un framework minimalista para crear aplicaciones web en Node.js.",
+        "date": "2024-01-05T09:30:00Z",
+        "comments": []
+    },
+    {
+        "id": 3,
+        "tittle": "Bases de Datos en Node.js",
+        "author": "Carlos Sánchez",
+        "content": "En esta publicación, exploraremos cómo trabajar con bases de datos en Node.js.",
+        "date": "2024-01-10T15:00:00Z",
+        "comments": [
+            {
+                "author": "Juan Pérez",
+                "content": "¿Qué base de datos recomiendas?",
+                "date": "2024-01-11T16:00:00Z"
+            }
+        ]
+    }
+]

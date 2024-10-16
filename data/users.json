@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "username": "juanp",
+        "password": "1234",
+        "area": "Recursos Humanos"
+    },
+    {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "Gómez",
+        "username": "mariag",
+        "password": "abcd",
+        "area": "Finanzas"
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Sánchez",
+        "username": "carloss",
+        "password": "password",
+        "area": "IT"
+    },
+    {
+        "id": 4,
+        "nombre": "Ana",
+        "apellido": "López",
+        "username": "anal",
+        "password": "secret",
+        "area": "Marketing"
+    }
+]
